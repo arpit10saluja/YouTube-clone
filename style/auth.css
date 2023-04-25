@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(55,55,55);
+    color: white;
+}
+
+
+#navbar{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(32,32,32);
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+}
+.logo_menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: -50px;
+    margin-left: 20px;
+}
+
+.logo_menu>a>img{
+    width: 100px;
+}
+
+.find{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(32,32,32);
+}
+
+.find>button{
+    background-color: rgb(32,32,32);
+    border: 0px;
+    width: 18%;
+    height: 60%;
+    margin-right: -25px;
+}
+.find>button>img{
+    height: 114%;
+    width: 80%;
+    margin-top: -2px;
+    margin-left: -30px;
+}
+.find>img{
+    height: 60%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile img{
+    height: 60%;
+    width: 18%;
+}
+
+#search_term{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    border: 0px;
+    color: white;
+
+}
